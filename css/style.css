@@ -26,8 +26,8 @@ a[href^="tel:"] {
 
 body {
     position: relative;
-    background-color: #2756DB;
-    color: #2756DB;
+    background-color: #192261;
+    color: #4c546b;
     font: 300 20px/20px 'Open Sans', sans-serif;
 }
 
@@ -162,8 +162,8 @@ a:hover {
 
 .btn {
     display: inline-block;
-    border: 1px solid #2756DB;
-    color: #2756DB;
+    border: 1px solid #4c546b;
+    color: #4c546b;
     margin-top: 24px;
     padding: 5px 32px 11px;
     font: bold 20px/20px 'Economica', sans-serif;
@@ -353,6 +353,7 @@ header h1 a img {
     background-color: #89c255;
     color: #fff;
     padding-bottom: 22px;
+    padding-top: 22px;
     text-align: center;
     font: bold 36px/48px 'Economica', sans-serif;
 }
@@ -1333,7 +1334,7 @@ header h1 a img {
 
 .affix {
     padding: 0;
-    background-color: #111;
+    background-color: #192261;
 }
 
 

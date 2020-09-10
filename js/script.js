@@ -11,7 +11,7 @@ $(function(){
       document.addEventListener("gesturestart", gestureStart, false);
     }
   };
-  
+
   scaleFix();
   // Menu Android
   if(window.orientation!=undefined){
@@ -28,7 +28,7 @@ $(function(){
        window.location.href = $(this).attr("href");
       }
      );
-    } 
+    }
    })
   }
  }
@@ -50,3 +50,10 @@ var currentYear = (new Date).getFullYear();
   $(function(){
   $('.sf-menu').superfish({autoArrows: true})
 })
+$('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
